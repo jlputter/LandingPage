@@ -17,13 +17,8 @@ function App() {
     <ThemeProvider theme = {theme}>
       <>
       <GlobalStyles/>
-        <Header />
-        <Container>
-          <h1>Hewoo</h1>  
-        </Container>
-        
+        <Header /> 
       </>
-    
     </ThemeProvider>
   );
 }
