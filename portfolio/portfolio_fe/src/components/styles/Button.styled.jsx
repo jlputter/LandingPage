@@ -14,7 +14,7 @@ export const Button = styled.button`
 
     &:hover{
         opacity: 0.9;
-        transform: scale(1.02);
+        transform: scale(.98);
         transition: ease-out;
 
     }

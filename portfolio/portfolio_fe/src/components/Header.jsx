@@ -16,8 +16,11 @@ export default function Header() {
                 </ul>
                 <Button>Contact Me</Button>
             </Nav>
-            <ConsoleIMG src='./images/terminal.png' alt=''/>
             </Container>
+            <Container>
+                <ConsoleIMG src='./images/terminal.png' alt=''/>
+            </Container>
+            
         </StyledHeader>
     )
 }

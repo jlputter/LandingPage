@@ -4,7 +4,7 @@ export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.header}; 
     padding: 40px 0;
     margin: 0 auto;
-    align-items: center;
+
 
 `
 
@@ -63,7 +63,13 @@ export const Name = styled.h1`
 `
 
 export const ConsoleIMG  = styled.img`
+        display: flex;
+        align-items: center;
         border-radius: 25px;
-    
+        object-fit: contain;
+        max-width: 900px;
+        max-height: 600px;
+        margin-left: auto;
+        margin-right: auto;
 
 `
