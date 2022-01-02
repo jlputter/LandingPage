@@ -4,8 +4,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap'); */
     
 
     * {
@@ -28,7 +27,8 @@ const GlobalStyles = createGlobalStyle`
     p{
         color: ${({theme}) => theme.colors.body};
         font-family: 'Roboto', sans-serif; 
-        font-size: 1.75em;
+        font-weight: 100;
+        font-size: 1.12em;
     }
 
 

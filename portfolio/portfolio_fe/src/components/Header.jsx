@@ -9,26 +9,26 @@ export default function Header() {
             <Container>
             <Nav>
                 <Logo src='./images/logo.png' alt=''/>
-                <Name> Jean-Luc. </Name>
+                <Name> / / jean-luc. </Name>
                 <ul>
-                    <li><a>About Me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Archive</a></li>
+                    <li><a>about me</a></li>
+                    <li><a>projects</a></li>
+                    <li><a>archive</a></li>
                 </ul>
-                <Button>Contact Me</Button>
+                <Button>contact</Button>
             </Nav>
            
             <Grid>
                 <div>
-                    <h1> What is this site?</h1>
+                    <h1> what is this site?</h1>
                         <p>
-                            This website will be home to all my projects and personal projects which I feel are worth sharing.
+                            this website will be home to all my projects and personal projects which I feel are worth sharing.
                         </p>
                         <p>
-                            What does the value of 'foo' mean?
+                            what does the value of 'foo' mean?
                         </p>
                         <a href="https://www.punipunijapan.com/juunin-tooiro/">
-                        <button>Read about it</button>
+                        <button>read about it</button>
                         </a>
                 </div>
                 

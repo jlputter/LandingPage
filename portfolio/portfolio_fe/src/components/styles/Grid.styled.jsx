@@ -21,17 +21,18 @@ export const Grid = styled.div `
         padding-top: 0;
         margin-top: 0;
         padding-bottom: 20px;
-        font-size: 1.12em;
+
     }
 
     button{
         color: ${({theme}) => theme.colors.body};
         border-radius: 25px;
         border-color: ${({theme}) => theme.colors.button};
-        background-color: inherit;
+        background-color:${({theme}) => theme.colors.header} ;
         font-size: 1.5em;
         padding: 15px 60px;
-        cursor:pointer
+        cursor:pointer;
+        box-shadow: 0 0 3px rgba(0,0,0,0.8);
       
     }
     button:hover{
@@ -43,13 +44,12 @@ export const Grid = styled.div `
     }
 
 
-    }
 
     
 
 `
 export const ConsoleIMG  = styled.img`
-        align-items: center;
+        align-self: auto;
         border-radius: 25px;
  
         max-width: 1500px;

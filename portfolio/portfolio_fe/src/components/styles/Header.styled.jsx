@@ -6,6 +6,12 @@ export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.header}; 
     padding: 0;
     margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-image: url('./images/waves.svg'); 
+
 
 
 `

@@ -1,5 +1,6 @@
 import {Container} from './components/styles/Container.styled'
 import Header from './components/Header'
+import AboutMe from './components/AboutMe'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './components/styles/Global'
 
@@ -18,6 +19,7 @@ function App() {
       <>
       <GlobalStyles/>
         <Header /> 
+        <AboutMe/>
       </>
     </ThemeProvider>
   );
