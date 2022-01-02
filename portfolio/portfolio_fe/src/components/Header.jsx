@@ -19,9 +19,18 @@ export default function Header() {
             </Nav>
            
             <Grid>
-                <p>
-                    Welcome, this website will be home to all my projects and personal projects which I feel are worth sharing.
-                </p>
+                <div>
+                    <h1> What is this site?</h1>
+                        <p>
+                            This website will be home to all my projects and personal projects which I feel are worth sharing.
+                        </p>
+                        <p>
+                            What does the value of 'foo' mean?
+                        </p>
+                        <a href="https://www.punipunijapan.com/juunin-tooiro/">
+                        <button>Read about it</button>
+                        </a>
+                </div>
                 
                 <ConsoleIMG src='./images/terminal.png' alt=''/>
             </Grid>
