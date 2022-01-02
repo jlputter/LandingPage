@@ -22,10 +22,10 @@ export default function Header() {
                 <div>
                     <h1> what is this site?</h1>
                         <p>
-                            this website will be home to all my projects and personal projects which I feel are worth sharing.
+                            this website is home to all my projects and hobbies which I feel are worth sharing.
                         </p>
                         <p>
-                            what does the value of 'foo' mean?
+                            what does 十人十色 mean?
                         </p>
                         <a href="https://www.punipunijapan.com/juunin-tooiro/">
                         <button>read about it</button>

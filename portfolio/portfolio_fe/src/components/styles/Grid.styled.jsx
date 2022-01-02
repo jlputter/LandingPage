@@ -27,19 +27,21 @@ export const Grid = styled.div `
     button{
         color: ${({theme}) => theme.colors.body};
         border-radius: 25px;
+        border-width: 3px;
         border-color: ${({theme}) => theme.colors.button};
         background-color:${({theme}) => theme.colors.header} ;
         font-size: 1.5em;
         padding: 15px 60px;
         cursor:pointer;
-        box-shadow: 0 0 3px rgba(0,0,0,0.8);
+        
       
     }
     button:hover{
 
-        opacity: 0.9;
+        border-color: ${({theme}) => theme.colors.body};
         transform: scale(.98);
-        transition: ease-out;
+        transition: ease;
+        background-color:${({theme}) => theme.colors.button};
 
     }
 
