@@ -1,8 +1,10 @@
 import styled from "styled-components"
 
+
+
 export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.header}; 
-    padding: 40px 0;
+    padding: 0;
     margin: 0 auto;
 
 
@@ -14,13 +16,14 @@ export const Nav = styled.nav`
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
 
     ul {
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 0px;
+    padding-right: 60px;
     list-style: none;
     color: #FFF;
     }
@@ -33,6 +36,7 @@ export const Nav = styled.nav`
     a{
         padding: 10px;
         margin: 0 5px;
+        font-size: 1em;
     }
     
     a:hover{
@@ -51,13 +55,22 @@ export const Nav = styled.nav`
 
 export const Logo = styled.img`
 
+    max-height: 70px;
+    border-radius: 50px;
     
 
 `
 
 export const Name = styled.h1`
+ 
 
     color: #FFF;
+    font-size: 2.4em;
+    flex-grow: 1;
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
     
 
 `

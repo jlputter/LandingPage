@@ -1,5 +1,6 @@
-import { StyledHeader, Nav, Logo, Name, ConsoleIMG } from "./styles/Header.styled";
+import { StyledHeader, Nav, Logo, Name } from "./styles/Header.styled";
 import { Container } from "./styles/Container.styled";
+import { Grid, ConsoleIMG } from "./styles/Grid.styled";
 import { Button } from "./styles/Button.styled";
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
             <Container>
             <Nav>
                 <Logo src='./images/logo.png' alt=''/>
-                <Name> Jean-Luc </Name>
+                <Name> Jean-Luc. </Name>
                 <ul>
                     <li><a>About Me</a></li>
                     <li><a>Projects</a></li>
@@ -16,11 +17,16 @@ export default function Header() {
                 </ul>
                 <Button>Contact Me</Button>
             </Nav>
-            </Container>
-            <Container>
+           
+            <Grid>
+                <p>
+                    Welcome, this website will be home to all my projects and personal projects which I feel are worth sharing.
+                </p>
+                
                 <ConsoleIMG src='./images/terminal.png' alt=''/>
+            </Grid>
             </Container>
-            
+       
         </StyledHeader>
     )
 }

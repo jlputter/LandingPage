@@ -3,7 +3,8 @@ import { createGlobalStyle } from "styled-components";
 //font-family: 'Quicksand', sans-serif;
 
 const GlobalStyles = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Quicksand:wght@300&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
     
 
@@ -15,13 +16,19 @@ const GlobalStyles = createGlobalStyle`
     body {
         background: ${({theme}) => theme.colors.body};
         color: hsl(192. 100%, 9%);
-        font-family: 'Quicksand', sans-serif; 
+        font-family: 'Roboto', sans-serif; 
         font-size: 1.15em;
         margin: 0;
     }
 
     h1{
         font-size: 2em;
+    }
+
+    p{
+        color: ${({theme}) => theme.colors.body};
+        font-family: 'Roboto', sans-serif; 
+        font-size: 1.75em;
     }
 
 
