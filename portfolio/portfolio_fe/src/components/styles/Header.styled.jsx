@@ -43,6 +43,9 @@ export const Nav = styled.nav`
         padding: 10px;
         margin: 0 5px;
         font-size: 1em;
+        color: #FFF;
+
+        
     }
     
     a:hover{
@@ -69,9 +72,13 @@ export const Logo = styled.img`
 
 export const Name = styled.h1`
  
+ @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+    font-size: 3.2em;
+    font-family: 'Rock 3D', cursive;
 
     color: #FFF;
-    font-size: 2.4em;
+   
     flex-grow: 1;
     padding-left: 30px;
     margin-top: 0px;
