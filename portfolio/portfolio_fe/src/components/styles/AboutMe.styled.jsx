@@ -6,8 +6,20 @@ export const StyledAbout = styled.section`
     padding-top: 25px;
     margin: 0 auto;
 
+   
+
     
 
+
+`
+export const abtMeP = styled.p`
+
+
+        color: ${({theme}) => theme.colors.body};
+        font-family: 'Roboto', sans-serif; 
+        font-weight: 100;
+        font-size: 1.7em;
+        text-align: center;
 
 `
 
