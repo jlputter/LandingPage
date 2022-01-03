@@ -11,9 +11,9 @@ export default function Header() {
                 <Logo src='./images/logo.png' alt=''/>
                 <Name> / / jean-luc. </Name>
                 <ul>
-                    <li><a>about me</a></li>
-                    <li><a>projects</a></li>
-                    <li><a>archive</a></li>
+                    <li><a href="/">about me</a></li>
+                    <li><a href="/">  projects</a></li>
+                    <li><a href="/">archive</a></li>
                 </ul>
                 <Button>contact</Button>
             </Nav>

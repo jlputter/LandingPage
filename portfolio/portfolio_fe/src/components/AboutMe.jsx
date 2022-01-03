@@ -1,10 +1,11 @@
 import { Container } from "./styles/Container.styled";
-import { StyledAbout, MeIMG, StyledTags, RevStyledTags } from "./styles/AboutMe.styled";
+import { StyledAbout, MeIMG, StyledTags, RevStyledTags, Title } from "./styles/AboutMe.styled";
 
 export default function AboutMe() {
     return (
         <StyledAbout>
         <Container>
+            <Title>who am i?</Title>
             <StyledTags>
             <MeIMG src='./images/vase.png' alt=''/>
             <p> my name is jean-luc, and I have been aroudn the world throughout my life. some of the things i enjoy doing, are 
@@ -25,7 +26,7 @@ export default function AboutMe() {
                 make food half as good as hers, and maybe one day open a restaurant. finally, pottery is a relatively new hobby for me
                 but it is one very closely tied to food - what you eat on is almost as important as what you eat.  
             </p>
-            <MeIMG src='./images/vase.png' alt=''/>
+            <MeIMG id='revImg' src='./images/food.png' alt=''/>
             
         
             </RevStyledTags>
