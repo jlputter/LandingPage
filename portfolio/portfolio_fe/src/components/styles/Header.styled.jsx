@@ -44,6 +44,7 @@ export const Nav = styled.nav`
         margin: 0 5px;
         font-size: 1em;
         color: #FFF;
+        text-decoration: none;
 
         
     }

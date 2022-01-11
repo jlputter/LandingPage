@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './components/styles/Global'
+import HomePage from './HomePage'
 
 const theme = {
   colors: {
@@ -14,16 +15,17 @@ const theme = {
   },
 }
 
+
+// renderPageInProgress = () => {
+//   return(
+//       <h1> this page is in progess, please wait 3 seconds</h1>
+
+//   );
+// }
+
 function App() {
   return (
-    <ThemeProvider theme = {theme}>
-      <>
-      <GlobalStyles/>
-        <Header /> 
-        <AboutMe/>
-        <Footer/>
-      </>
-    </ThemeProvider>
+    <HomePage/>
   );
 }
 
