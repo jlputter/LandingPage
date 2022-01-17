@@ -12,7 +12,7 @@ export const StyledAbout = styled.section`
 
 
 `
-export const abtMeP = styled.p`
+export const AbtMeP = styled.p`
 
 
         color: ${({theme}) => theme.colors.body};
